@@ -8,34 +8,33 @@
 
 ### rjdverse
 
+[![Onyxia](https://img.shields.io/badge/dev-rjd3jars-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3jars&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3jars»&vault.secret=«PAT»&autoLaunch=true)
+
+[![Onyxia](https://img.shields.io/badge/dev-rjd3toolkit-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3toolkit&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3toolkit»&vault.secret=«PAT»&autoLaunch=true)
+
+[![Onyxia](https://img.shields.io/badge/dev-rjd3x13-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3x13&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3x13»&vault.secret=«PAT»&autoLaunch=true)
+
+[![Onyxia](https://img.shields.io/badge/dev-rjd3tramoseats-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3tramoseats&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3tramoseats»&vault.secret=«PAT»&autoLaunch=true)
+
+[![Onyxia](https://img.shields.io/badge/dev-rjd3workspace-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3workspace&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3workspace»&vault.secret=«PAT»&autoLaunch=true)
+
+[![Onyxia](https://img.shields.io/badge/dev-rjd3providers-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3providers&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3providers»&vault.secret=«PAT»&autoLaunch=true)
+
 [![Onyxia](https://img.shields.io/badge/dev-rjd3bench-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3bench&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3bench»&vault.secret=«PAT»&autoLaunch=true) 
 
 [![Onyxia](https://img.shields.io/badge/dev-rjd3filters-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3filters&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3filters»&vault.secret=«PAT»&autoLaunch=true) 
 
 [![Onyxia](https://img.shields.io/badge/dev-rjd3highfreq-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3highfreq&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3highfreq»&vault.secret=«PAT»&autoLaunch=true) 
 
-[![Onyxia](https://img.shields.io/badge/dev-rjd3nowcasting-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3nowcasting&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3nowcasting»&vault.secret=«PAT»&autoLaunch=true) 
+[![Onyxia](https://img.shields.io/badge/dev-rjd3nowcasting-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3nowcasting&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3nowcasting»&vault.secret=«PAT»&autoLaunch=true)
 
-[![Onyxia](https://img.shields.io/badge/dev-rjd3providers-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3providers&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3providers»&vault.secret=«PAT»&autoLaunch=true) 
+[![Onyxia](https://img.shields.io/badge/dev-rjd3revisions-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3revisions&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3revisions»&vault.secret=«PAT»&autoLaunch=true)
 
-[![Onyxia](https://img.shields.io/badge/dev-rjd3revisions-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3revisions&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3revisions»&vault.secret=«PAT»&autoLaunch=true) 
+[![Onyxia](https://img.shields.io/badge/dev-rjd3stl-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3stl&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3stl»&vault.secret=«PAT»&autoLaunch=true)
 
-[![Onyxia](https://img.shields.io/badge/dev-rjd3stl-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3stl&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3stl»&vault.secret=«PAT»&autoLaunch=true) 
+[![Onyxia](https://img.shields.io/badge/dev-rjd3sts-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3sts&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3sts»&vault.secret=«PAT»&autoLaunch=true)
 
-[![Onyxia](https://img.shields.io/badge/dev-rjd3sts-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3sts&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3sts»&vault.secret=«PAT»&autoLaunch=true) 
-
-[![Onyxia](https://img.shields.io/badge/dev-rjd3toolkit-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3toolkit&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3toolkit»&vault.secret=«PAT»&autoLaunch=true) 
-
-[![Onyxia](https://img.shields.io/badge/dev-rjd3tramoseats-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3tramoseats&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3tramoseats»&vault.secret=«PAT»&autoLaunch=true) 
-
-[![Onyxia](https://img.shields.io/badge/dev-rjd3workspace-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3workspace&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3workspace»&vault.secret=«PAT»&autoLaunch=true) 
-
-[![Onyxia](https://img.shields.io/badge/dev-rjd3x11plus-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3x11plus&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3x11plus»&vault.secret=«PAT»&autoLaunch=true) 
-
-[![Onyxia](https://img.shields.io/badge/dev-rjd3x13-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3x13&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3x13»&vault.secret=«PAT»&autoLaunch=true) 
-
-[![Onyxia](https://img.shields.io/badge/dev-rjd3jars-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3jars&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3jars»&vault.secret=«PAT»&autoLaunch=true) 
-
+[![Onyxia](https://img.shields.io/badge/dev-rjd3x11plus-blue?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?name=rjd3x11plus&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3x11plus»&vault.secret=«PAT»&autoLaunch=true)
 
 ### Other related to JD+
 
