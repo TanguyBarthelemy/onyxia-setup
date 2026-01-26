@@ -1,28 +1,23 @@
 #!/bin/sh
 
-# This init script is a variation of open-rproj, which clones
-# a Git repository that contains a RStudio project (*.Rproj)
-# and opens it in RStudio at startup.
-# In addition, it takes as parameter the name of the git account and the git repository.
+echo "v1.15"
 
-# Expected parameters :
-#  - Name of the github account
-#  - Name of the github repository
-
-# Fetch the parameter
+echo "Fetching the parameter..."
 GIT_ACCOUNT=$1
 GIT_REPO=$2
 
+
+echo "Changing ownership of init_dir..."
 init_dir="/home/onyxia/.cache/init"
 mkdir -p "${init_dir}"
 chown -R onyxia:users "${init_dir}"
-
 echo "PROJ_DIR=\"/home/onyxia/work/${GIT_REPO}\"" >> "/home/onyxia/.Renviron"
 chown onyxia:users "/home/onyxia/.Renviron"
-
 cd ${init_dir}
-echo "v1.14.1"
+echo "init_dir ready - OK"
 
+
+echo "Downloading the bash files..."
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-git-TanguyBarthelemy.sh"
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-rstudio-prefs.sh"
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-locales.sh"
@@ -30,7 +25,10 @@ curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/m
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-air.sh"
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-firacode.sh"
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-rjdverse-lib.sh"
+echo "Dowloading is complete - OK"
 
+
+echo "Changing the ownership..."
 chmod +x "setup-git-TanguyBarthelemy.sh"
 chmod +x "setup-rstudio-prefs.sh"
 chmod +x "setup-locales.sh"
@@ -38,24 +36,41 @@ chmod +x "setup-rprofile.sh"
 chmod +x "setup-air.sh"
 chmod +x "setup-firacode.sh"
 chmod +x "setup-rjdverse-lib.sh"
+echo "Changed the ownership - OK"
 
+
+echo "Setting up Git..."
 "./setup-git-TanguyBarthelemy.sh"
-echo "setup git ok"
-"./setup-rstudio-prefs.sh"
-echo "setup prefs ok"
-"./setup-locales.sh"
-echo "setup locales ok"
-"./setup-rprofile.sh"
-echo "setup rprofile ok"
-"./setup-air.sh"
-echo "setup air ok"
-"./setup-firacode.sh"
-echo "setup fira ok"
-"./setup-rjdverse-lib.sh"
-echo "setup lib for proto ok"
+echo "Git setup - OK"
 
+echo "Setting up RStudio preferences..."
+"./setup-rstudio-prefs.sh"
+echo "RStudio preferences setup - OK"
+
+echo "Setting up Locales..."
+"./setup-locales.sh"
+echo "Locales setup - OK"
+
+echo "Setting up .Rprofile..."
+"./setup-rprofile.sh"
+echo ".Rprofile setup - OK"
+
+echo "Setting up Air..."
+"./setup-air.sh"
+echo "Air setup - OK"
+
+echo "Setting up Fira Code..."
+"./setup-firacode.sh"
+echo "Fira Code setup - OK"
+
+echo "Setting up rjdverse lib..."
+"./setup-rjdverse-lib.sh"
+echo "rjdverse lib setup - OK"
+
+
+echo "Cloning the repo..."
 cd "/home/onyxia/work"
 git clone https://TanguyBarthelemy:${GITHUB_TANGUYBARTHELEMY}@github.com/${GIT_ACCOUNT}/${GIT_REPO}.git
 chown -R onyxia:users ${GIT_REPO}/
 chown -R onyxia:users /home/onyxia/.cache/git/credential
-echo "setup git proj ok"
+echo "Project setup is complete - OK"
