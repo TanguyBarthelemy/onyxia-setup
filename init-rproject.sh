@@ -11,7 +11,7 @@ echo "Changing ownership of init_dir..."
 init_dir="/home/onyxia/.cache/init"
 mkdir -p "${init_dir}"
 chown -R onyxia:users "${init_dir}"
-echo "PROJ_DIR=\"/home/onyxia/work/${GIT_REPO}\"" >> "/home/onyxia/.Renviron"
+echo "RPROJ_DIR=\"/home/onyxia/work/${GIT_REPO}\"" >> "/home/onyxia/.Renviron"
 chown onyxia:users "/home/onyxia/.Renviron"
 cd ${init_dir}
 echo "init_dir ready - OK"

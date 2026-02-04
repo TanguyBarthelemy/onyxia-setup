@@ -31,18 +31,18 @@ locations <- data.frame(lon = 2.3, lat = 48.8)
 locations <- sp::SpatialPoints(locations, proj4string = sp::CRS(\"+proj=longlat +datum=WGS84\"))
 datetime <- as.POSIXct(Sys.Date(), tz = \"UTC\")
 suntimes <- suntools::crepuscule(
-    crds = locations, 
-    dateTime = datetime, 
-    solarDep = 0.268, 
-    direction = \"dawn\", 
+    crds = locations,
+    dateTime = datetime,
+    solarDep = 0.268,
+    direction = \"dawn\",
     POSIXct.out = TRUE
 )
 sunrise <- suntimes\$time
 suntimes <- suntools::crepuscule(
-    crds = locations, 
-    dateTime = datetime, 
-    solarDep = 0.268, 
-    direction = \"dusk\", 
+    crds = locations,
+    dateTime = datetime,
+    solarDep = 0.268,
+    direction = \"dusk\",
     POSIXct.out = TRUE
 )
 sunset <- suntimes\$time
@@ -54,15 +54,26 @@ setHook(\"rstudio.sessionInit\", function(newSession) {
         } else {
             rstudioapi::applyTheme(\"Textmate (default)\")
         }
-        
-        rm(locations, suntimes, sunrise, sunset, datetime, envir = globalenv())
-        
-        PROJ_DIR <- Sys.getenv(\"PROJ_DIR\")
-        if (nzchar(PROJ_DIR)) PROJ_DIR <- normalizePath(PROJ_DIR)
 
-        if (nzchar(PROJ_DIR) && !identical(PROJ_DIR, getwd())) {
-            message(\"Activation du projet RStudio\")
-            rstudioapi::openProject(PROJ_DIR)
+        rm(locations, suntimes, sunrise, sunset, datetime, envir = globalenv())
+
+        PROJ_DIR <- Sys.getenv(\"PROJ_DIR\")
+        RPROJ_DIR <- Sys.getenv(\"RPROJ_DIR\")
+        if (nzchar(RPROJ_DIR)) {
+            RPROJ_DIR <- normalizePath(RPROJ_DIR)
+
+            if (!identical(RPROJ_DIR, getwd())) {
+                message(\"Activation du projet RStudio\")
+                rstudioapi::openProject(RPROJ_DIR)
+            }
+        } else if (nzchar(PROJ_DIR)) {
+            PROJ_DIR <- normalizePath(PROJ_DIR)
+
+            if (!identical(PROJ_DIR, getwd())) {
+                message(\"Activation du projet\")
+                setwd(PROJ_DIR)
+                rstudioapi::filesPaneNavigate(path = PROJ_DIR)
+            }
         }
     }
 }, action = \"append\")
