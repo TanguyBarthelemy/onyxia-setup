@@ -58,6 +58,10 @@
 
 [![Onyxia](https://img.shields.io/badge/dev-IssueTrackeR-green?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«IssueTrackeR»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20IssueTrackeR»&vault.secret=«PAT»&autoLaunch=true)
 
+### R projects
+
+[![Onyxia](https://img.shields.io/badge/dev-TODO-forestgreen?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«TODO»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20TODO»&vault.secret=«PAT»&autoLaunch=true)
+
 
 ## Others
 
