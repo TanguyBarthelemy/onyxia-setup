@@ -71,6 +71,8 @@
 
 [![Onyxia](https://img.shields.io/badge/dev-releaser_GHA-orange?logo=githubactions&logoColor=white)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«releaser-action»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-project.sh»&init.personalInitArgs=«TanguyBarthelemy%20r-release-action»&vault.secret=«PAT»&autoLaunch=true)
 
+[![Onyxia](https://img.shields.io/badge/README-TanguyBarthelemy-orange?logo=readme&logoColor=white)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«README-TanguyBarthelemy»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-project.sh»&init.personalInitArgs=«TanguyBarthelemy%20TanguyBarthelemy»&vault.secret=«PAT»&autoLaunch=true)
+
 
 ### Slides et dev
 
