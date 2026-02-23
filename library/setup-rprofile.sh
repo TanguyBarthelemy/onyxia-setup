@@ -61,12 +61,6 @@ setHook(\"rstudio.sessionInit\", function(newSession) {
         RPROJ_DIR <- Sys.getenv(\"RPROJ_DIR\")
         if (nzchar(RPROJ_DIR)) {
             RPROJ_DIR <- normalizePath(RPROJ_DIR)
-            try(
-                expr = {
-                    devtools::install_deps(".", dependencies = TRUE, upgrade = "always", quiet = TRUE)
-                },
-                silent = TRUE
-            )
             if (!identical(RPROJ_DIR, getwd())) {
                 message(\"Activation du projet RStudio\")
                 rstudioapi::openProject(RPROJ_DIR)
