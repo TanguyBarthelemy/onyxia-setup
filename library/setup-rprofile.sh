@@ -62,16 +62,18 @@ setHook(\"rstudio.sessionInit\", function(newSession) {
         if (nzchar(RPROJ_DIR)) {
             RPROJ_DIR <- normalizePath(RPROJ_DIR)
             if (!identical(RPROJ_DIR, getwd())) {
-                message(\"Activation du projet RStudio\")
+                message(\"Activation du projet RStudio...\")
                 rstudioapi::openProject(RPROJ_DIR)
+                message(\"Projet activé !\")
             }
         } else if (nzchar(PROJ_DIR)) {
             PROJ_DIR <- normalizePath(PROJ_DIR)
 
             if (!identical(PROJ_DIR, getwd())) {
-                message(\"Activation du projet\")
+                message(\"Activation du projet...\")
                 setwd(PROJ_DIR)
                 rstudioapi::filesPaneNavigate(path = PROJ_DIR)
+                message(\"Projet activé !\")
             }
         }
     }
