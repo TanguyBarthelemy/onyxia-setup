@@ -25,6 +25,7 @@ curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/m
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-air.sh"
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-firacode.sh"
 curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-rjdverse-lib.sh"
+curl -fsSL -O "https://raw.githubusercontent.com/TanguyBarthelemy/onyxia-setup/main/library/setup-maven.sh"
 echo "Dowloading is complete - OK"
 
 
@@ -36,6 +37,7 @@ chmod +x "setup-rprofile.sh"
 chmod +x "setup-air.sh"
 chmod +x "setup-firacode.sh"
 chmod +x "setup-rjdverse-lib.sh"
+chmod +x "setup-maven.sh"
 echo "Changed the ownership - OK"
 
 
@@ -66,6 +68,10 @@ echo "Fira Code setup - OK"
 echo "Setting up rjdverse lib..."
 "./setup-rjdverse-lib.sh"
 echo "rjdverse lib setup - OK"
+
+echo "Setting up maven..."
+"./setup-maven.sh"
+echo "maven setup - OK"
 
 
 echo "Cloning the repo..."

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Install Fira Code
+# Install rjdverse lib
 apt-get update
 apt-get install -y \
   openjdk-21-jdk \
