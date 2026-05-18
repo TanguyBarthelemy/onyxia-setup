@@ -39,6 +39,9 @@
 
 [![Onyxia](https://img.shields.io/badge/dev-TODO-forestgreen?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«TODO»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20TODO»&vault.secret=«PAT»&autoLaunch=true)
 
+[![Onyxia](https://img.shields.io/badge/dev-RJD3_development-forestgreen?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«RJD3_development»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20RJD3_development»&vault.secret=«PAT»&autoLaunch=true)
+
+
 
 ## Others
 
@@ -51,11 +54,12 @@
 [![Onyxia](https://img.shields.io/badge/README-TanguyBarthelemy-orange?logo=readme&logoColor=white)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«README-TanguyBarthelemy»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-project.sh»&init.personalInitArgs=«TanguyBarthelemy%20TanguyBarthelemy»&vault.secret=«PAT»&autoLaunch=true)
 
 
-### Slides et dev
+### Presentation
 
 [![Onyxia](https://img.shields.io/badge/slides-Content-red?logo=Quarto)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«Content-Production-for-Presentations»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20Content-Production-for-Presentations»&vault.secret=«PAT»&autoLaunch=true)
 
-[![Onyxia](https://img.shields.io/badge/dev-RJD3_development-red?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«RJD3_development»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20RJD3_development»&vault.secret=«PAT»&autoLaunch=true)
+[![Onyxia](https://img.shields.io/badge/presentation-CV-red?logo=Quarto)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«CV-Tanguy»&version=2.3.18&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20CV-Tanguy»&vault.secret=«PAT»&autoLaunch=true)
+
 
 
 ### Documentation
