@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Installer jarl
+curl -LsSf https://github.com/etiennebacher/jarl/releases/latest/download/jarl-installer.sh | sh
+
 # Installer air
 curl -LsSf https://github.com/posit-dev/air/releases/latest/download/air-installer.sh | sh
 

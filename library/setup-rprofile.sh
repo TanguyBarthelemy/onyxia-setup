@@ -2,7 +2,7 @@
 
 # Installer des packages supplémentaires
 Rscript -e "
-install.packages(c(\"sp\", \"suntools\", \"rstudioapi\"), repos = \"https://cloud.r-project.org\")
+install.packages(c(\"sp\", \"suntools\", \"rstudioapi\", \"pak\"), repos = \"https://cloud.r-project.org\")
 "
 
 # Créer un .Rprofile
@@ -62,6 +62,14 @@ setHook(\"rstudio.sessionInit\", function(newSession) {
         if (nzchar(RPROJ_DIR)) {
             RPROJ_DIR <- normalizePath(RPROJ_DIR)
             if (!identical(RPROJ_DIR, getwd())) {
+                if (file.exists(file.path(RPROJ_DIR, \"DESCRIPTION\"))) {
+                    message(\"Installing project dependencies...\")
+                    pak::local_install_deps(
+                        RPROJ_DIR,
+                        dependencies = TRUE
+                    )
+                    message(\"Dependencies installed!\")
+                }
                 message(\"Activation du projet RStudio...\")
                 rstudioapi::openProject(RPROJ_DIR)
                 message(\"Projet activé !\")
