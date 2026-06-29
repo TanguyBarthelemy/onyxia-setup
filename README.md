@@ -41,6 +41,8 @@
 
 [![Onyxia](https://img.shields.io/badge/dev-RJD3_development-forestgreen?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«RJD3_development»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20RJD3_development»&vault.secret=«PAT»&autoLaunch=true)
 
+[![Onyxia](https://img.shields.io/badge/dev-calendar_regressor-forestgreen?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«calendar_regressor»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20calendar_regressor»&vault.secret=«PAT»&autoLaunch=true)
+
 
 
 ## Others
