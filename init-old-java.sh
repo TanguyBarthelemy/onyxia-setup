@@ -59,7 +59,7 @@ echo "Fira Code setup - OK"
 
 echo "Setting up Java..."
 "./setup-java-11.sh"
-echo "Fira Code setup - OK"
+echo "Java setup - OK"
 
 
 echo "Prepare access to git credential..."

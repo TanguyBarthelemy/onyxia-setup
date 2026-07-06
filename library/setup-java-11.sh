@@ -6,9 +6,15 @@
 echo "Mise à jour des paquets..."
 apt update -qq
 
-# Supprimer toutes les versions de Java installées
+# Supprimer toutes les versions de Java installées, y compris OpenJDK 21
 echo "Suppression des versions existantes de Java..."
-apt remove -y --purge openjdk-* icedtea-* icedtea6-* java-common oracle-java* default-jre default-jdk
+apt remove -y --purge openjdk-21-jdk openjdk-21-jre openjdk-21-jdk-headless openjdk-21-jre-headless
+apt remove -y --purge openjdk-* icedtea-* java-common oracle-java* default-jre default-jdk
+
+# Supprimer les dossiers résiduels
+echo "Suppression des dossiers résiduels..."
+rm -rf /usr/lib/jvm/java-21-openjdk-amd64
+rm -rf /usr/lib/jvm/java-1.21.0-openjdk-amd64
 
 # Nettoyer les dépendances inutiles
 echo "Nettoyage des dépendances..."
@@ -21,6 +27,10 @@ apt install -y openjdk-11-jdk
 
 # Configurer OpenJDK 11 comme version par défaut
 echo "Configuration d'OpenJDK 11 comme version par défaut..."
+update-alternatives --remove-all java
+update-alternatives --remove-all javac
+update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-11-openjdk-amd64/bin/java 1
+update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/java-11-openjdk-amd64/bin/javac 1
 update-alternatives --set java /usr/lib/jvm/java-11-openjdk-amd64/bin/java
 update-alternatives --set javac /usr/lib/jvm/java-11-openjdk-amd64/bin/javac
 
