@@ -55,6 +55,8 @@
 
 [![Onyxia](https://img.shields.io/badge/README-TanguyBarthelemy-orange?logo=readme&logoColor=white)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«README-TanguyBarthelemy»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-project.sh»&init.personalInitArgs=«TanguyBarthelemy%20TanguyBarthelemy»&vault.secret=«PAT»&autoLaunch=true)
 
+[![Onyxia](https://img.shields.io/badge/README-rjdverse-orange?logo=readme&logoColor=white)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«README-rjdverse»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-project.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjdverse.github»&vault.secret=«PAT»&autoLaunch=true)
+
 
 ### Presentation
 
