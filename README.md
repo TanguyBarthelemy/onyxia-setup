@@ -4,6 +4,8 @@
 
 [![Onyxia](https://img.shields.io/badge/Empty-session-orange?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«TB-Template»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-empty.sh»&vault.secret=«PAT»&autoLaunch=true)
 
+[![Onyxia](https://img.shields.io/badge/Java-11-orange?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«TB-Template»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-old-java.sh»&vault.secret=«PAT»&autoLaunch=true)
+
 
 ## R
 
