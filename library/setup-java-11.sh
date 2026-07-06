@@ -24,6 +24,10 @@ echo "Configuration d'OpenJDK 11 comme version par défaut..."
 update-alternatives --set java /usr/lib/jvm/java-11-openjdk-amd64/bin/java
 update-alternatives --set javac /usr/lib/jvm/java-11-openjdk-amd64/bin/javac
 
+# Créer un lien symbolique pour libjvm.so
+echo "Création d'un lien symbolique pour libjvm.so..."
+ln -sf /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so /usr/lib/libjvm.so
+
 # Définir les variables d'environnement pour RStudio
 echo "Configuration des variables d'environnement pour RStudio..."
 echo "export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64" >> ~/.bashrc
@@ -35,9 +39,18 @@ echo "Configuration de .Renviron pour R..."
 echo "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64" > ~/.Renviron
 echo "LD_LIBRARY_PATH=/usr/lib/jvm/java-11-openjdk-amd64/lib/server" >> ~/.Renviron
 
+# Installer rJava dans R avec les bonnes dépendances
+echo "Installation de rJava dans R..."
+Rscript -e "remove.packages('rJava')"
+Rscript -e "install.packages('rJava', configure.args = '--with-java-home=/usr/lib/jvm/java-11-openjdk-amd64')"
+
 # Afficher les informations sur la version de Java installée
 echo "Vérification de la version de Java installée..."
 java -version
+
+# Vérifier le lien symbolique pour libjvm.so
+echo "Vérification du lien symbolique pour libjvm.so..."
+ls -l /usr/lib/libjvm.so
 
 # Afficher un message de confirmation
 echo "Initialisation terminée. OpenJDK 11 est maintenant la seule version de Java installée et configurée pour RStudio."
