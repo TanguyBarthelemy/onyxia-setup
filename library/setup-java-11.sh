@@ -18,6 +18,10 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
 echo "export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/" >> ~/.bashrc
 source ~/.bashrc
 
+# Ajouter JAVA_HOME au fichier .Renviron pour R
+echo "Ajout de JAVA_HOME au fichier .Renviron..."
+echo "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64" >> ~/.Renviron
+
 # Créer un lien symbolique pour libjvm.so
 echo "Création d'un lien symbolique pour libjvm.so..."
 ln -sf /usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so /usr/lib/libjvm.so
