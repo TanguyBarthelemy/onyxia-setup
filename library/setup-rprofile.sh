@@ -64,7 +64,7 @@ setHook(\"rstudio.sessionInit\", function(newSession) {
             if (!identical(RPROJ_DIR, getwd())) {
                 if (file.exists(file.path(RPROJ_DIR, \"DESCRIPTION\"))) {
                     message(\"Installing project dependencies...\")
-                    pak::local_install_dev_deps()(
+                    pak::local_install_dev_deps(
                         RPROJ_DIR,
                         dependencies = TRUE
                     )
