@@ -66,7 +66,8 @@ setHook(\"rstudio.sessionInit\", function(newSession) {
                     message(\"Installing project dependencies...\")
                     pak::local_install_dev_deps(
                         RPROJ_DIR,
-                        dependencies = TRUE
+                        dependencies = TRUE,
+                        ask = FALSE
                     )
                     message(\"Dependencies installed!\")
                 }
