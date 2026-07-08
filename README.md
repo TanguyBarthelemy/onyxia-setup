@@ -62,7 +62,7 @@
 
 ### Presentation
 
-[![Onyxia](https://img.shields.io/badge/slides-Content-red?logo=Quarto)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«Content-Production-for-Presentations»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20Content-Production-for-Presentations»&vault.secret=«PAT»&autoLaunch=true)
+[![Onyxia](https://img.shields.io/badge/slides-Content-red?logo=Quarto)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«Content-Production-for-Presentations»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«annasmyk%20Content-Production-for-Presentations»&vault.secret=«PAT»&autoLaunch=true)
 
 [![Onyxia](https://img.shields.io/badge/presentation-CV-red?logo=Quarto)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«CV-Tanguy»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20CV-Tanguy»&vault.secret=«PAT»&autoLaunch=true)
 
