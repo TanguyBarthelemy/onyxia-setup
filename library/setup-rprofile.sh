@@ -2,8 +2,8 @@
 
 # Installer des packages supplémentaires
 Rscript -e "
-install.packages(c(\"sp\", \"suntools\", \"rstudioapi\", \"pak\", \"cyclocomp\"), repos = \"https://cloud.r-project.org\")
-pak::pak(\"moodymudskipper/devtag\")
+install.packages(c(\"sp\", \"suntools\", \"rstudioapi\", \"pak\", \"remotes\", \"cyclocomp\"), repos = \"https://cloud.r-project.org\")
+remotes::install_github(\"moodymudskipper/devtag\")
 "
 
 # Créer un .Rprofile
