@@ -79,7 +79,9 @@ cd "/home/onyxia/work"
 git clone https://TanguyBarthelemy:${GITHUB_TANGUYBARTHELEMY}@github.com/${GIT_ACCOUNT}/${GIT_REPO}.git
 
 UPSTREAM_OWNER=$(curl -s "https://api.github.com/repos/${GIT_ACCOUNT}/${GIT_REPO}" | jq -r '.parent.owner.login')
-[ -n "${UPSTREAM_OWNER}" ] && git -C "${GIT_REPO}" remote add upstream "https://TanguyBarthelemy:${GITHUB_TANGUYBARTHELEMY}@github.com/${UPSTREAM_OWNER}/${GIT_REPO}.git" || echo "No upstream found."
+if [ "${UPSTREAM_OWNER}" != "null" ]; then
+    git -C "${GIT_REPO}" remote add upstream "https://TanguyBarthelemy:${GITHUB_TANGUYBARTHELEMY}@github.com/${UPSTREAM_OWNER}/${GIT_REPO}.git"
+fi
 
 chown -R onyxia:users ${GIT_REPO}/
 chown -R onyxia:users /home/onyxia/.cache/git/credential
