@@ -21,7 +21,7 @@
 
 [![Onyxia](https://img.shields.io/badge/dev-rjd3production-034770?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«rjd3production»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3production»&vault.secret=«PAT»&autoLaunch=true) 
 
-[![Onyxia](https://img.shields.io/badge/dev-JDCruncheR-034770?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«JDCruncheR»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20JDCruncheR»&vault.secret=«PAT»&autoLaunch=true) 
+[![Onyxia](https://img.shields.io/badge/dev-rjd3qr-034770?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«rjd3qr»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjd3qr»&vault.secret=«PAT»&autoLaunch=true) 
 
 [![Onyxia](https://img.shields.io/badge/dev-rjdworkspace-034770?logo=R)](https://datalab.sspcloud.fr/launcher/ide/rstudio?onyxia.friendlyName=«rjdworkspace»&s3=region-79669f20&init.personalInit=«https%3A%2F%2Fraw.githubusercontent.com%2FTanguyBarthelemy%2Fonyxia-setup%2Fmain%2Finit-rproject.sh»&init.personalInitArgs=«TanguyBarthelemy%20rjdworkspace»&vault.secret=«PAT»&autoLaunch=true) 
 
